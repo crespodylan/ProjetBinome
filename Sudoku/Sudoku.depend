@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1422900733 source:c:\users\dylan\cours\projet\sudoku\displaying.c
+	"displaying.h"
+	"sudoku.h"
+	<stdio.h>
+
+1422901325 c:\users\dylan\cours\projet\sudoku\displaying.h
+	"sudoku.h"
+
+1422901144 c:\users\dylan\cours\projet\sudoku\sudoku.h
+	"liste.h"
+	"utils.h"
+
+1422909717 source:c:\users\dylan\cours\projet\sudoku\files.c
+	"files.h"
+
+1422901875 source:c:\users\dylan\cours\projet\sudoku\generation.c
+	<stdlib.h>
+	<unistd.h>
+	<stdio.h>
+	"sudoku.h"
+	"generation.h"
+	"displaying.h"
+	<time.h>
+
+1422909610 source:c:\users\dylan\cours\projet\sudoku\main.c
+	<stdio.h>
+	<stdlib.h>
+	"utils.h"
+	"sudoku.h"
+	"generation.h"
+	"resolution.h"
+	"files.h"
+	"displaying.h"
+
+1422901348 c:\users\dylan\cours\projet\sudoku\generation.h
+	"sudoku.h"
+
+1422901375 c:\users\dylan\cours\projet\sudoku\resolution.h
+	"sudoku.h"
+
+1422909538 c:\users\dylan\cours\projet\sudoku\files.h
+	"sudoku.h"
+	<stdlib.h>
+	<stdio.h>
+
+1422908710 source:c:\users\dylan\cours\projet\sudoku\resolution.c
+	"resolution.h"
+	"sudoku.h"
+	"utils.h"
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1422901121 source:c:\users\dylan\cours\projet\sudoku\sudoku.c
+	"sudoku.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1422902070 c:\users\dylan\cours\projet\sudoku\utils.h
+	"liste.h"
+
+1422901089 source:c:\users\dylan\cours\projet\sudoku\utils.c
+	"utils.h"
+	"sudoku.h"
+	"liste.h"
+	<stdio.h>
+	<stdlib.h>
+
+1422904136 source:c:\users\dylan\cours\projet\sudoku\liste.c
+	"liste.h"
+	<stdio.h>
+	<stdlib.h>
+
+1422903114 c:\users\dylan\cours\projet\sudoku\liste.h
+
