@@ -1,10 +1,4 @@
-
 #include "generation.h"
-
-
-#define _EASY_ 30
-#define _MEDIUM_ 40
-#define _HARD_ 50
 
 // Toujours appellé cette fonction avec i=0 !!!! Sinon elle ne fonctionnera pas
 Sudoku randomGeneration(int i) {
