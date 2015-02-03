@@ -45,6 +45,7 @@ bool isGoodLine(int line, Sudoku s) {
             }
         }
     }
+    free(tab);
     return TRUE;
 }
 

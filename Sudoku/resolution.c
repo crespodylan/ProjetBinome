@@ -37,6 +37,7 @@ void backtracking(Sudoku s) {
 
     // Résolution
     for(i=0;i<81;i++) {
+        printf("%d",i);
         l = (i/9); c = (i%9);
 
         // Si le back arrive à -1 .. mauvais signe le sudoku n'a pas de solution

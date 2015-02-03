@@ -41,6 +41,7 @@ int main()
 
     char c[1024] = "";
     Sudoku s = NULL;
+
     helpMenu();
     while(strcmp(c, "exit")) {
         scanf("%s", &c);
@@ -73,12 +74,12 @@ int main()
             }
         }
         else if(strcmp(c, "open")  == 0) {
-            printf("Chemin du fichier à ouvrir ? ");
+            printf("Chemin du fichier a ouvrir ? ");
             scanf("%s", c);
             s = fileToSudoku(c);
         }
         else if(strcmp(c, "save")  == 0) {
-            printf("Chemin du fichier à sauvegarder ? ");
+            printf("Chemin du fichier a sauvegarder ? ");
             scanf("%s", c);
             SudokuToFile(s, c);
         }
@@ -92,4 +93,5 @@ int main()
 
         printf("\n");
     }
+    return 0;
 }
