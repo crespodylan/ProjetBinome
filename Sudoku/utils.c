@@ -1,8 +1,4 @@
 #include "utils.h"
-#include "sudoku.h"
-#include "liste.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 /// toString de Boolean.
 char* boolean(bool b) {

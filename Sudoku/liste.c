@@ -1,6 +1,4 @@
 #include "liste.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 #define SIZE 1024
 
@@ -229,7 +227,7 @@ bool find(int x, Liste l) {
     return TRUE;
 }
 
-/** Acces au i-eme élément
+ Acces au i-eme élément
  *  precond :  0 <= i < size(l)
  *  retour : le i-eme élément (indefini i precond non vérifiée)
  */

@@ -1,10 +1,6 @@
-#include <stdlib.h>
-#include <unistd.h>
-#include <stdio.h>
-#include "sudoku.h"
+
 #include "generation.h"
-#include "displaying.h"
-#include <time.h>
+
 
 #define _EASY_ 30
 #define _MEDIUM_ 40

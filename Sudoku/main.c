@@ -6,6 +6,7 @@
 #include "resolution.h"
 #include "files.h"
 #include "displaying.h"
+#include <string.h>
 
 void helpMenu() {
 
@@ -92,4 +93,5 @@ int main()
 
         printf("\n");
     }
+    return 0;
 }

@@ -77,3 +77,83 @@
 
 1422903114 c:\users\dylan\cours\projet\sudoku\liste.h
 
+1422951175 source:e:\cours\projetbinome\sudoku\displaying.c
+	"displaying.h"
+
+1422951170 e:\cours\projetbinome\sudoku\displaying.h
+	"sudoku.h"
+	"sudoku.h"
+	<stdio.h>
+
+1422951345 e:\cours\projetbinome\sudoku\sudoku.h
+	"liste.h"
+	"utils.h"
+
+1422951187 e:\cours\projetbinome\sudoku\liste.h
+	<stdio.h>
+	<stdlib.h>
+
+1422951454 e:\cours\projetbinome\sudoku\utils.h
+	"liste.h"
+	<stdio.h>
+	<stdlib.h>
+
+1422950062 source:e:\cours\projetbinome\sudoku\files.c
+	"files.h"
+
+1422950062 e:\cours\projetbinome\sudoku\files.h
+	"sudoku.h"
+	<stdlib.h>
+	<stdio.h>
+
+1422951238 source:e:\cours\projetbinome\sudoku\generation.c
+	"generation.h"
+
+1422951236 e:\cours\projetbinome\sudoku\generation.h
+	<stdlib.h>
+	<unistd.h>
+	<stdio.h>
+	"sudoku.h"
+	"displaying.h"
+	<time.h>
+
+1422951190 source:e:\cours\projetbinome\sudoku\liste.c
+	"liste.h"
+
+1422950062 source:e:\cours\projetbinome\sudoku\resolution.c
+	"resolution.h"
+	"sudoku.h"
+	"utils.h"
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1422950062 e:\cours\projetbinome\sudoku\resolution.h
+	"sudoku.h"
+
+1422950062 source:e:\cours\projetbinome\sudoku\sudoku.c
+	"sudoku.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1422950062 source:e:\cours\projetbinome\sudoku\utils.c
+	"utils.h"
+	"sudoku.h"
+	"liste.h"
+	<stdio.h>
+	<stdlib.h>
+
+1422950419 source:e:\cours\projetbinome\sudoku\main.c
+	<stdio.h>
+	<stdlib.h>
+	"utils.h"
+	"sudoku.h"
+	"generation.h"
+	"resolution.h"
+	"files.h"
+	"displaying.h"
+	<string.h>
+

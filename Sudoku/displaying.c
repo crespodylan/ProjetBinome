@@ -1,6 +1,4 @@
 #include "displaying.h"
-#include "sudoku.h"
-#include <stdio.h>
 
 void disArray(int* tab, int size) {
     int i=0;

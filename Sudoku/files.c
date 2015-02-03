@@ -1,5 +1,6 @@
 #include "files.h"
 
+
 Sudoku fileToSudoku(char* filepath)
 {
     FILE* file = NULL;
