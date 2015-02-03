@@ -14,6 +14,8 @@ typedef int** Sudoku;
 /// Une case remplie par -1 dans la grille sera considéré comme vide dans le sudoku.
 Sudoku newSudoku();
 
+/// Supprime correctement un sudoku afin d'éviter les fuites mémoires
+void deleteSudoku(Sudoku s);
 /// Vérifie si une ligne est conforme au règle du sudoku.
 /// Ne prend pas en compte les cases vides
 bool isGoodLine(int,Sudoku);

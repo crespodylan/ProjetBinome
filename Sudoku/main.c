@@ -6,6 +6,7 @@
 #include "resolution.h"
 #include "files.h"
 #include "displaying.h"
+#include <string.h>
 
 void helpMenu() {
 
@@ -21,7 +22,6 @@ void helpMenu() {
 
 int main()
 {
-
     printf("%s\n\n", "  -- SU DO KU --");
 
 

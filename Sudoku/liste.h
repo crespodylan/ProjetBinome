@@ -1,6 +1,7 @@
 #ifndef __LISTE_H
 #define __LISTE_H
-
+#include <stdio.h>
+#include <stdlib.h>
 typedef struct larray {
     int *tab;		// elements
     int current_nb_blocks;

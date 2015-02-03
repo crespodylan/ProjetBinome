@@ -1,8 +1,4 @@
 #include "utils.h"
-#include "sudoku.h"
-#include "liste.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 /// toString de Boolean.
 char* boolean(bool b) {
@@ -37,7 +33,7 @@ Liste* initTvp () {
 
     int i=0;
     for(i=0;i<81;i++) {
-        res[i] = (Liste) malloc(sizeof(struct larray));
+        res[i] = nouvListe();
     }
     return res;
 }

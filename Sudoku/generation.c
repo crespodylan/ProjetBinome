@@ -1,10 +1,6 @@
-#include <stdlib.h>
-#include <unistd.h>
-#include <stdio.h>
-#include "sudoku.h"
+
 #include "generation.h"
-#include "displaying.h"
-#include <time.h>
+
 
 #define _EASY_ 30
 #define _MEDIUM_ 40
@@ -15,7 +11,7 @@ Sudoku randomGeneration(int i) {
     // Initialisation des variables
     Sudoku s = newSudoku();
     if(i==0) { // Eviter l'appel de srand dans la même seconde - Pour ne l'appeler qu'un fois
-        srand((unsigned)time(NULL));
+        srand(time(0));
     }
     int l=0;
     int c=0;
@@ -32,12 +28,12 @@ Sudoku randomGeneration(int i) {
                 alea = rand() % (tpv->nb_elements);
                 s[l][c] = elt(alea, tpv);
             }
+            fermeList(tpv);
         }
     }
 
     if(!isFinished(s)){
-        free(s);
-        free(tpv);
+        deleteSudoku(s);
         return randomGeneration(i+1);
     }
     printf("Solution trouvee en %d iterations\n", i);

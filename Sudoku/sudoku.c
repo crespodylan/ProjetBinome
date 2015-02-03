@@ -21,6 +21,13 @@ Sudoku newSudoku() {
 
     return res;
 }
+void deleteSudoku(Sudoku s) {
+    int i;
+    for (i=0;i<9;i++) {
+        free(s[i]);
+    }
+    free(s);
+}
 
 int* initCountTab() {
     int* res = (int*) malloc(sizeof(int)*9);

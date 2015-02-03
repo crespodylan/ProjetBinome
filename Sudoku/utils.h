@@ -2,6 +2,8 @@
 #define _UTILS_
 
 #include "liste.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 typedef int bool;
 enum { FALSE, TRUE };
