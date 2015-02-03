@@ -33,7 +33,7 @@ Liste* initTvp () {
 
     int i=0;
     for(i=0;i<81;i++) {
-        res[i] = (Liste) malloc(sizeof(struct larray));
+        res[i] = nouvListe();
     }
     return res;
 }

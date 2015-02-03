@@ -3,7 +3,7 @@
 
 void backtracking(Sudoku s) {
     if(!isGoodSudoku(s)){
-        printf("La grille ne peut pas etre resolue, car elle n'est pas conforme aux regles du sudoku.\n");
+        printf("La grille ne peut pas etre resolue, car elle n'est pas conforme aux règles du sudoku.\n");
         return;
     }
 
@@ -68,4 +68,14 @@ void backtracking(Sudoku s) {
             }
         }
     }
+
+    // Libération mémoire
+    free(sequence);
+    sequence=NULL;
+    for(i=0;i<81;i++)
+    {
+        fermeList(tvp[i]);
+    }
+    free(tvp);
+    tvp=NULL;
 }

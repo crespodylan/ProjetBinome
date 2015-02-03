@@ -157,3 +157,78 @@
 	"displaying.h"
 	<string.h>
 
+1422951604 source:/home/user/Bureau/ProjetBinome-master/Sudoku/displaying.c
+	"displaying.h"
+
+1422951604 /home/user/Bureau/ProjetBinome-master/Sudoku/displaying.h
+	"sudoku.h"
+	"sudoku.h"
+	<stdio.h>
+
+1422954507 /home/user/Bureau/ProjetBinome-master/Sudoku/sudoku.h
+	"liste.h"
+	"utils.h"
+
+1422951604 /home/user/Bureau/ProjetBinome-master/Sudoku/liste.h
+	<stdio.h>
+	<stdlib.h>
+
+1422951604 /home/user/Bureau/ProjetBinome-master/Sudoku/utils.h
+	"liste.h"
+	<stdio.h>
+	<stdlib.h>
+
+1422960110 source:/home/user/Bureau/ProjetBinome-master/Sudoku/files.c
+	"files.h"
+
+1422951604 /home/user/Bureau/ProjetBinome-master/Sudoku/files.h
+	"sudoku.h"
+	<stdlib.h>
+	<stdio.h>
+
+1422958663 source:/home/user/Bureau/ProjetBinome-master/Sudoku/generation.c
+	"generation.h"
+
+1422951604 /home/user/Bureau/ProjetBinome-master/Sudoku/generation.h
+	<stdlib.h>
+	<unistd.h>
+	<stdio.h>
+	"sudoku.h"
+	"displaying.h"
+	<time.h>
+
+1422951604 source:/home/user/Bureau/ProjetBinome-master/Sudoku/liste.c
+	"liste.h"
+
+1422959639 source:/home/user/Bureau/ProjetBinome-master/Sudoku/main.c
+	<stdio.h>
+	<stdlib.h>
+	"utils.h"
+	"sudoku.h"
+	"generation.h"
+	"resolution.h"
+	"files.h"
+	"displaying.h"
+	<string.h>
+
+1422951604 /home/user/Bureau/ProjetBinome-master/Sudoku/resolution.h
+	"sudoku.h"
+	"utils.h"
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1422959474 source:/home/user/Bureau/ProjetBinome-master/Sudoku/resolution.c
+	"resolution.h"
+
+1422957272 source:/home/user/Bureau/ProjetBinome-master/Sudoku/sudoku.c
+	"sudoku.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1422959066 source:/home/user/Bureau/ProjetBinome-master/Sudoku/utils.c
+	"utils.h"
+

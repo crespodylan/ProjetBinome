@@ -3,6 +3,7 @@
 
 Sudoku fileToSudoku(char* filepath)
 {
+    char _null[50];
     FILE* file = NULL;
     file = fopen(filepath, "r+");
     Sudoku sudoku = newSudoku();
@@ -20,7 +21,8 @@ Sudoku fileToSudoku(char* filepath)
                 char buffer = fgetc(file); // lit un char
                 sudoku[l][i] = buffer-'0'; //cast char à int
             }
-            fseek(file, 2, SEEK_CUR); // passe à la ligne
+            fgets(_null, 50, file);
+            //fseek(file, 1, SEEK_CUR); // passe à la ligne
         }
         fclose(file);
     }
