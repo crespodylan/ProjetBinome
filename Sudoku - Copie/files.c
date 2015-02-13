@@ -24,6 +24,7 @@ Sudoku fileToSudoku(char* filepath)
         }
         fclose(file);
     }
+    printf("Sudoku importé");
     return sudoku;
 }
 

@@ -9,14 +9,15 @@
 #include <string.h>
 
 void helpMenu() {
-
+    printf("%s\n", "- random : Genere un sudoku");
     printf("%s\n", "- easy : Genere un sudoku facile (45 cases en moins)");
     printf("%s\n","- medium : Genere un sudoku moyen (55 cases en moins)");
     printf("%s\n","- hard : Genere un sudoku difficile (65 cases en moins)");
     printf("%s\n","- resolve : Resoue le sudoku en memoire (si il y en a un)");
-    printf("%s\n", "- open : Ouvrir un fichier et l'importer comme sudoku");
-    printf("%s\n", "- save : Sauvegarde le dernier sudoku en memoire");
+    printf("%s\n", "- open $chemin: Ouvrir un fichier et l'importer comme sudoku");
+    printf("%s\n", "- save $chemin: Sauvegarde le dernier sudoku en memoire");
     printf("%s\n", "- print : Affiche le dernier sudoku en memoire");
+    printf("%s\n", "- delete $n: Supprimer des cases du sudoku");
     printf("%s\n\n", "- exit : Sortir du jeu");
 }
 
@@ -50,6 +51,9 @@ int main()
         if(strcmp(c, "help") == 0) {
             helpMenu();
         }
+        else if(strcmp(c, "random")  == 0) {
+            s = randomGeneration(0);
+        }
         else if(strcmp(c, "easy")  == 0) {
             s = randomGeneration(0);
             deleteNValues(45, s);
@@ -74,17 +78,24 @@ int main()
             }
         }
         else if(strcmp(c, "open")  == 0) {
-            printf("Chemin du fichier a ouvrir ? ");
             scanf("%s", c);
             s = fileToSudoku(c);
         }
         else if(strcmp(c, "save")  == 0) {
-            printf("Chemin du fichier a sauvegarder ? ");
             scanf("%s", c);
             SudokuToFile(s, c);
         }
         else if(strcmp(c, "print")  == 0) {
-            Display(s);
+            if(s != NULL) {
+                Display(s);
+            } else { printf("Il n'y a pas de sudoku en mémoire"); }
+        }
+        else if(strcmp(c, "delete")  == 0){
+            if(s != NULL) {
+                int n=0;
+                scanf("%d",&n);
+                deleteNValues(n,s);
+            }
         }
         else {
             printf("COMMANDE INCONNUE\n");
